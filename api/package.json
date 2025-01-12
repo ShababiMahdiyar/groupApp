@@ -11,6 +11,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
+      "build": "echo 'No build step needed' && exit 0", // Add this line for Render
+
     "format": "npx prettier . --write",
     "check": "npx eslint . --fix"
   },
